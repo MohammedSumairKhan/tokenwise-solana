@@ -1,0 +1,34 @@
+
+
+<web-app>
+	<servlet>
+		<servlet-name>WalletServlet</servlet-name>
+		<servlet-class>com.walletSevlet.WalletServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>WalletServlet</servlet-name>
+		<url-pattern>/wallets</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>ExportCSVServlet</servlet-name>
+		<servlet-class>com.walletSevlet.ExportCSVServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ExportCSVServlet</servlet-name>
+		<url-pattern>/export</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+    <servlet-name>TransactionServlet</servlet-name>
+    <servlet-class>com.walletSevlet.TransactionServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>TransactionServlet</servlet-name>
+    <url-pattern>/transactions</url-pattern>
+</servlet-mapping>
+
+</web-app>
+
+
