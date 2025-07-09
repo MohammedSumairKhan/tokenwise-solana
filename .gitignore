@@ -1,0 +1,25 @@
+# Node.js
+node_modules/
+.env
+package-lock.json
+
+# Java build files
+*.class
+*.log
+*.jar
+*.war
+*.ear
+
+# IDE/project files
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# Build folders
+/target/
+/out/
+/build/
+
+# OS-specific files
+Thumbs.db
