@@ -109,15 +109,20 @@ node polling.js
 
 ## 📂 Folder Structure
 
-solana-connect/
-├── trackwallet.js        # Fetch top 60 token holders
-├── polling.js            # Monitor transactions via polling
-├── wallet.jsp            # Frontend dashboard
-├── TokenWiseDashBoard/
-│   ├── WalletServlet.java    # Servlet logic for data fetching
-│   ├── ExportServlet.java    # CSV export functionality
-├── export.csv            # Export file (generated)
-└── README.md             # This file
+tokenwise-solana/
+├── trackwallet.js         # Fetch top 60 token holders
+├── polling.js             # Monitor transactions via polling
+├── wallet.jsp             # Dashboard frontend
+├── styles.css             # Dashboard styling
+├── TokenWiseDashboard/
+│   ├── WalletServlet.java     # Servlet logic for data fetching
+│   ├── ExportCSVServlet.java  # CSV export functionality
+├── index.js
+├── DBConnection.java
+├── package.json
+├── package-lock.json
+├── web.xml
+├── README.md
 ```
 
 ---
